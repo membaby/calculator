@@ -2,7 +2,7 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
-export const BASE_URI: string = "http://localhost:8080/evaluate?equation="
+export const BASE_URI: string = "http://localhost:6400/evaluate?equation="
 
 
 @Injectable({
