@@ -1,0 +1,7 @@
+::ng-deep body {
+    background: linear-gradient(45deg, #252525, #252c33, #3c3c3c);
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
