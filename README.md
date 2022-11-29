@@ -10,6 +10,8 @@ Assignment #2 for Programming II Course at Alexandria University
 
 ---
 
+YouTube Video: https://youtu.be/G4J1aZEYq3k
+
 ### 👨‍💻 Tech Stack
 
 Here's a brief high-level overview of the tech stack the Calculator app uses:
