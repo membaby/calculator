@@ -1,0 +1,35 @@
+<h1 class="app-title">CALCULATOR</h1>
+
+<div class="app">
+
+    <div class="calculator-app">
+
+        <div class="keypad">
+            <div class="display">
+                <span class="clear"         (click)='KeypadClicked("CLEAR")'>CLEAR</span>
+                <input type="text" class="input" id="display" value={{display}} disabled>
+            </div>
+            <div class="button gray"        (click)='KeypadClicked("C")'> <span class="text">C</span> </div>
+            <div class="button gray"        (click)='KeypadClicked("switch_sign")'> <span class="text">+/-</span> </div>
+            <div class="button gray"        (click)='KeypadClicked("%")'> <span class="text">%</span> </div>
+            <div class="button orange"      (click)='KeypadClicked("/")'> <span class="text">÷</span> </div>
+            <div class="button"             (click)='KeypadClicked("7")'> <span class="text">7</span> </div>
+            <div class="button"             (click)='KeypadClicked("8")'> <span class="text">8</span> </div>
+            <div class="button"             (click)='KeypadClicked("9")'> <span class="text">9</span> </div>
+            <div class="button orange"      (click)='KeypadClicked("*")'> <span class="text">×</span> </div>
+            <div class="button"             (click)='KeypadClicked("4")'> <span class="text">4</span> </div>
+            <div class="button"             (click)='KeypadClicked("5")'> <span class="text">5</span> </div>
+            <div class="button"             (click)='KeypadClicked("6")'> <span class="text">6</span> </div>
+            <div class="button orange"      (click)='KeypadClicked("-")'> <span class="text">-</span> </div>
+            <div class="button"             (click)='KeypadClicked("1")'> <span class="text">1</span> </div>
+            <div class="button"             (click)='KeypadClicked("2")'> <span class="text">2</span> </div>
+            <div class="button"             (click)='KeypadClicked("3")'> <span class="text">3</span> </div>
+            <div class="button orange"      (click)='KeypadClicked("+")'> <span class="text">+</span> </div>
+            <div class="button long-button" (click)='KeypadClicked("0")'> <span class="text">0</span> </div>
+            <div class="button"             (click)='KeypadClicked(".")'> <span class="text">.</span> </div>
+            <div class="button orange"      (click)='KeypadClicked("=")'> <span class="text">=</span> </div>
+        </div>
+
+    </div>
+
+</div>
